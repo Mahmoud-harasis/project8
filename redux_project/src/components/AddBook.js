@@ -70,7 +70,7 @@ function AddBook() {
         </Navbar>
         <div id="landing">
             <p style={{visibility : "hidden"}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, nostrum deserunt mollitia animi omnis explicabo laborum harum eos reprehenderit illum magni dolore quasi, vero consequuntur. Accusantium aut vel ab amet.</p>
-            <div id="diver"><h1 className="text-center font-bold text-2xl" id="head">Add New <br/>Novel</h1></div>
+            <div id="diver"><h1 className="text-center font-bold text-2xl" id="head">Add New <br/>book</h1></div>
 
             <div id= "formm">
                 <section className="section_form">
@@ -80,7 +80,7 @@ function AddBook() {
                         <input name="description" style={{height: '6vw'}}  placeholder="Novel Description"  type="text" id="text" value={description} onChange={(e) => setDescription(e.target.value)} /><br /><br />
                         <input type="file"  name="img" id="file" accept="image/*"  onChange={(e) =>setFile(e.target.files[0])} hidden/>
                         <label className="label" htmlFor="file">
-                            <p id="imgLabel">Add Image To Your Novel</p>
+                            <p id="imgLabel">Add Image To Your book</p>
                         </label>
                         <br/>
                         <button id="addNovelDB" type="submit"><img src={require('../images/add-book-icon_1950624-removebg-preview.png')} alt="" /></button>

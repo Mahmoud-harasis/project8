@@ -70,7 +70,7 @@ function Novels() {
     <div id="landing">
       <p style={{visibility : "hidden"}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, nostrum deserunt mollitia animi omnis explicabo laborum harum eos reprehenderit illum magni dolore quasi, vero consequuntur. Accusantium aut vel ab amet.</p>
       <div id="diver">
-        <h1 className="text-center font-bold text-2xl" id="head">Novels</h1>
+        <h1 className="text-center font-bold text-2xl" id="head">books</h1>
       </div>
       <div className="align-item center figureWEB">
         {novels.map((item , index)=>{

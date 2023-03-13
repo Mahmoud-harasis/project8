@@ -33,7 +33,7 @@ const LoginFun=(e)=>{
 
 
 <div id="landing" style={{height : '99.5vh'}}>
-  <h1 id='head' style={{paddingTop : '11vw' , paddingLeft : '28vw'}}>Mystery And Criminal Novels</h1>
+  <h1 id='head' style={{paddingTop : '11vw' , paddingLeft : '28vw'}}>Mystery And Criminal books</h1>
 <p style={{visibility : "hidden" , height : '15vh'}}></p>
   <form style={{marginLeft : '23vw'}}>
     <div class="form-item">
